@@ -8,9 +8,14 @@ color:#333;}
 
 
 .menu{
+    max-width:1440px;
+    width:100%;
+    margin:0 auto;
     /* background-color:royalblue; */
-    display:inline-block;
-    /* width:1920px; */
+    /* display:inline-block; */
+    /*max-width:1920px;
+    width:100%;
+    margin: 0 auto;*/
     height:150px;
     text-align:center;
 }
@@ -21,26 +26,30 @@ color:#333;}
 } */
 .main_visual .main_lobby{
     text-align:center;
-    max-width:1280px;
+    max-width:1440px;
     width:100%;
     margin:0 auto;
 }
 .menu .menu_top{
-    max-width:1280px;
+    max-width:1440px;
     width:100%;
     margin:0 auto;
     display:inline-block;
-    
+    /*background-color: #AC8F65;*/
 }
 video {
-    max-width: 1280px; 
+    max-width: 1440px; 
     display: block;
-    margin: 20px auto; 
+    margin: 0 auto; 
     width:100%;
 }
 .menu .menu_bottom{
-    width:1280px;
-    display:inline-block;
+    max-width:1440px;
+    width:100%;
+    /*margin: 0 auto;*/
+    /* display:inline-block; */
+    float:right;
+    /* background-color: #AC8F65; */
 }
 .menu .menu_top::after{
     content:'';
@@ -82,7 +91,7 @@ video {
     font-size:17px;
     color:#ccc;
     /* padding-top:2    0px; */
-    padding-right:20px;
+    padding-right:10px;
     padding-bottom:10px;
     /* background-color:green; */
 }
@@ -90,13 +99,22 @@ video {
     margin-right:15px;
     
 }
+.menu .menu_bottom ul li:nth-of-type(2){
+    margin-right:5px;
+    
+}
+.menu .menu_bottom ul li:nth-of-type(3){
+    margin-right:6px;
+    
+}
 .main_visual{
     width:1920px;
+    margin:0 auto;
     text-align:center;
     background-color:#423d3a;
 }
 .main_visual .main_robby img{
-    width:1280px;
+    width:1420px;
     background-color:wheat;
 }
 .main_visual .main_bottom{
@@ -161,14 +179,14 @@ video {
 .header .header_visual{
     /* background-color:royalblue; */
     padding-bottom:50px;
-    width:1280px;
+    width:1440px;
     margin:0 auto;
     
 }
 .header .header_visual div{
-    width:320px;
+    width:360px;
     float:left;
-    margin-bottom:50px;
+    margin-bottom:80px;
 }
 /* .header .header_visual p:last-child{
     margin-bottom:20px;
@@ -176,13 +194,19 @@ video {
 } */
 .header .header_visual h3{
     padding-bottom:50px;
-    padding-top:30px;
+    padding-top:80px;
     font-size:32px;
 }
 .header .header_visual2{
-    width:1280px;
+    width:1440px;
     /* background-color:salmon; */
     margin:0 auto;
+}
+.header .header_visual2 img{
+    width:340px;
+}
+.header .header_visual3 img{
+    width:340px;
 }
 .header .header_visual2 h3{
     padding-bottom:50px;
@@ -192,22 +216,27 @@ video {
 .header .header_visual3{
     /* background-color:royalblue; */
     padding-bottom:50px;
-    width: 1280px;
+    width: 1440px;
     /* background-color: salmon; */
     margin: 0 auto;
 
 }
 
 .banner{
-    display:inline-block;
+    /* display:inline-block; */
+    max-width:1920px;
+    width:100%;
+    margin:0 auto;
     /* width:1920px; */
-    height:300px;
+    height:500px;
     padding-bottom:50px;
     
 }
 .banner .bannerimg{
     background:url('../img/banner.png') center center / cover no-repeat;
     width:1920px;
+    /* margin: 0 auto;
+    justify-content: center; */
     height:300px;
     text-align:center;
     /* background-color:royalblue; */
@@ -223,7 +252,7 @@ video {
 .banner .bannerimg p{
     /* background-color:royalblue; */
     /* float:left; */
-    width:1280px;
+    width:1220px;
     height:100px;
     font-size:32px;
     color:#fff;
@@ -291,7 +320,9 @@ video {
 
 .banner2{
     text-align:center;
-    width:1920px;
+    max-width:1920px;
+    width:100%;
+    margin:0 auto;
     height:340px;
     /* float:left; */
     /* margin: 550px 0 50px 320px; */
@@ -347,11 +378,14 @@ video {
     
 }
 .nav{
-    width:1280px;
+    max-width:1280px;
+    width:100%;
+    margin:0 auto;
     height:610px;
     margin-top:30px;
     margin-bottom:100px;
-    margin-left:320px;/* 1280 딱맞춤 320px + 여유분 30px */
+    margin-left:320px;
+    /* 1280 딱맞춤 320px + 여유분 30px */
     border:3px solid #62472A;
     /* display:inline-block; */
     /* text-align:left; */
@@ -387,7 +421,9 @@ video {
 
 .footer{
     background:url('../img/footer.png') center center / cover no-repeat;
-    width:1920px;
+    max-width:1920px;
+    width:100%;
+    margin:0 auto;
     height:230px;
     text-align:center;
 }
