@@ -62,13 +62,14 @@
   }
   .in-container .header_m1 .kat2 img {
     /* position:absolute; */
-    margin-left:-330px;
+    margin-left:-260px;
     width:1000px;
+   
   }
   .in-container .header_m1 .kat img {
     width:800px;
     /* margin-top:500px; */
-    margin-left:-125px;
+    margin-left:-55px;
     /* position:absolute; */
     /* left:200px; */
   }
@@ -78,7 +79,7 @@
     /* background-color: blue; */
     float:left;
     margin-left:-350px;
-    margin-top:-30px;
+    margin-top:-40px;
   }
   .in-container .header_m1 ul li{
     float:left;
@@ -109,7 +110,7 @@
   .in-container .header_m1 ul li:nth-of-type(6){
     border:0;
   }
-  .in-container .header_m1 ul li:nth-of-type(7){
+  .in-container .header_m1 ul li:nth-of-type(7){/* 슬릭슬라이더아이콘 */
     margin-left:40px;
     font-size:25px;
     border:0;
@@ -150,6 +151,7 @@
   /* -------------------------------------------헤더 끝 */
   /* -------------------------------------------메인 비주얼 */
   .skewdBox {
+    width:1280px;
     position: absolute;
     top: 0;
     left: 0;
@@ -175,7 +177,7 @@
   
   .skewdBox:before {
     content: '';
-    width: 200%;
+    width: 178%;
     height: 100%;
     position: absolute;
     top: 0;
@@ -206,7 +208,7 @@
     height:600px;
     background: #262626;
     margin-left:400px;
-    display:none;
+    /* display:none; */
   }
   .right-menubar:after{
     display:block;
@@ -218,13 +220,14 @@
     
   }
   .right-menubar .rmtab p{
+    position:absolute;
     float:left;
     height:600px;
-    
     line-height:600px;
     width:50px;
     text-align:center;
     margin-right:20px;
+    margin-left:-10px;
     background-color: #F4C801;
     cursor: pointer;
   }
@@ -665,7 +668,7 @@
     .right-menubar{
       float:left;
       /* margin-left:110px; */
-      width:530px;
+      width:540px;
       margin-top:30px;
       height:600px;
       background: #262626;
@@ -688,8 +691,6 @@
       float:left;
       height:600px;
       line-height:600px;
-      /* padding-bottom:400px; */
-      /* line-height:750px; */
       width:50px;
       text-align:center;
       margin-right:20px;
@@ -700,11 +701,10 @@
     .right-menubar .rmtab2{
       width:500px;
       height:600px;
-      /* float:left; */
-      /* text-align:center; */
-      /* background-color: darkred; */
+      /* margin-top:50px; */
     }
     .right-menubar ul{
+      width:535px;
       border-bottom:3px solid #fff;
     }
     .right-menubar .rmtab2 ul li a{
@@ -720,6 +720,11 @@
       /* text-align:center; */
       margin:20px;
       margin-left:50px;
+    }
+    .in-container .header_m1 ul li:nth-of-type(7){
+      margin-left:320px;
+      font-size:50px;
+      display:flex;
     }
     .right-menubar .rmtab2 ul li a:before{
       content:'+';
@@ -1034,14 +1039,19 @@
     .in-container .header_m1 ul li:nth-of-type(6){ display:none;
       border:0;      
     }
-    .in-container .header_m1 ul li:nth-of-type(7){  display:block;
+    .in-container .header_m1 ul li:nth-of-type(7){ 
+      display:block;
       margin-left:210px;
       font-size:40px;
       border:0;
       width:30px;
       height:40px;
-      display:block;
+      /* display:flex; */
       margin-top:-35px;
+      /* position:fixed;
+      top:0;
+      right:0; */
+      /* left:0; */
     }
     .in-center {
       position: relative;
