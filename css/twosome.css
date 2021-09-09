@@ -26,9 +26,10 @@ color:#333;}
 } */
 .main_visual .main_lobby{
     text-align:center;
-    max-width:1440px;
+    max-width:1920px;
     width:100%;
     margin:0 auto;
+    background-color: #AC8F65;
 }
 .menu .menu_top{
     max-width:1440px;
@@ -38,10 +39,12 @@ color:#333;}
     /*background-color: #AC8F65;*/
 }
 video {
-    max-width: 1440px; 
+    max-width: 1920px;
     display: block;
     margin: 0 auto; 
     width:100%;
+    background-color: #AC8F65;
+    height:750px;
 }
 .menu .menu_bottom{
     max-width:1440px;
@@ -111,7 +114,7 @@ video {
     width:1920px;
     margin:0 auto;
     text-align:center;
-    background-color:#423d3a;
+    /* background-color:#423d3a; */
 }
 .main_visual .main_robby img{
     width:1420px;
@@ -120,11 +123,12 @@ video {
 .main_visual .main_bottom{
     width:1920px;
     margin:0 auto;
-    height:78px;
+    height:80px;
     margin-bottom:-5px;
     /* background:url('../img/main_bottom.jpg') center center / cover no-repeat; */
     text-align:center;
     display:inline-block;
+    
     background-color: #AC8F65;
 }
 .main_bottom::after{
@@ -187,6 +191,13 @@ video {
     width:360px;
     float:left;
     margin-bottom:80px;
+}
+.header .header_visual span{
+    width:360px;
+    height:500px;
+    /* background-color: #AC8F65; */
+    font-size:19px;
+    margin-bottom:50px;
 }
 /* .header .header_visual p:last-child{
     margin-bottom:20px;
@@ -282,6 +293,16 @@ video {
     float:left;
     position:relative;
 }
+.box p{
+    text-align:center;
+    font-weight:500;
+    font-size:30px;
+    height:50px;
+    line-height:50px;
+    margin-top:150px;
+    margin-left:770px;
+}
+
 .back{
     position:absolute;
     top:0;
@@ -342,22 +363,25 @@ video {
     /* text-align:right; */
     /* background-color:wheat; */
     float:left;
-    padding-left:320px;
+    /* padding-left:320px; */
 
+}
+.banner2 .banner_left img{
+    width:960px;
 }
 .banner2 .banner_right h4{
     font-size:40px;
     float:left;
     margin-bottom:10px;
     margin-top:-5px;
-    
+    color:#fff;
 }
 
 .banner2 .banner_right h3{
     font-size:24px;
     float:left;
     margin-bottom:10px;
-    
+    color:#fff;
 
 }
 
@@ -366,7 +390,7 @@ video {
     line-height:30px;
     float:left;
     margin-top:15px;
-
+    color:#fff;
 }
 .banner2 .banner_right{
     width:550px;
@@ -391,6 +415,7 @@ video {
     /* text-align:left; */
     /* float:left; */
     /* background-color:#333; */
+    color:#fff;
 }
 .nav h3{
     font-size:24px;
@@ -426,6 +451,7 @@ video {
     margin:0 auto;
     height:230px;
     text-align:center;
+    
 }
 .footer .top{
     width:1280px;
@@ -440,11 +466,12 @@ video {
     padding:20px 10px;
     padding-right:10px;
     font-weight:bold;
-    color:rgba(20, 20, 20);
+    /* color:rgba(20, 20, 20); */
+    color:#fff;
 }
 .footer .top .pp{
     font-size:16px;
-    color:rgb(141, 139, 8)
+    color:rgb(255, 251, 19)
     /* padding:20px; */
 
 }
@@ -455,12 +482,12 @@ video {
     width:1280px;
 }
 .footer .bottom p{
-    
+    color:#fff;
     float:left;
     padding:3px 0;
     padding-left:10px;
     font-weight:bold;
-    color:rgb(20, 20, 20);
+    /* color:rgb(20, 20, 20); */
 }
 /* .root_daum_roughmap { margin: auto !important; } */
 
